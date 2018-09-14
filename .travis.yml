@@ -13,7 +13,7 @@ python:
   - "3.6"
 
 script:
-  - python -m pytest milon tests --cov=vasp
+  - python -m pytest milon tests --cov=milon
 
 install:
   - pip install setuptools

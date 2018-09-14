@@ -33,7 +33,6 @@ setup(
     description='A hebrew dictionary',
     long_description=long_description,
     keywords=[
-        'vasp', 'electronic-structure', 'quantum', 'physics'
     ],
 
     package_data=dict(
