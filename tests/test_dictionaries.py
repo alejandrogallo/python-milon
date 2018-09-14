@@ -37,3 +37,6 @@ def test_dictionaries_enhe():
     results = d.lookup('dream')
     assert(results)
     assert(unicode_to_sbl(results[0]['translation'][0]) == u'ḥălwōm')
+
+    results = d.lookup('the')
+    assert(len(results) >= 20)
