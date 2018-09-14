@@ -33,6 +33,7 @@ setup(
     description='A hebrew dictionary',
     long_description=long_description,
     keywords=[
+        'hebrew', 'dictionary', 'arabic', 'semitic'
     ],
 
     package_data=dict(
